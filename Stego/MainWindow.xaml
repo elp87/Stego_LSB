@@ -1,0 +1,10 @@
+﻿<Window x:Class="elp.StegoIn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="551">
+    <Grid Name="MainGrid">
+        <Button Name="LoadButton" Content="Загрузить" Margin="218,63,219,0" Width="80" VerticalAlignment="Top" Click="LoadButton_Click"/>
+        <TextBox Name="txtBox" Height="23" Margin="10,22,10,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
